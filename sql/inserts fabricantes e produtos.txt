@@ -1,0 +1,16 @@
+INSERT INTO fabricante (nome) VALUES ('Makita'), ('Bosch'), ('Trapp'), ('De Waltt') ;
+
+INSERT INTO produto (nome, idFabricante, imagem, descricao, tensao, catMarcenaria, catJardinagem, catLimpeza, catEscritorio, catMecanica, catOutros, qtde, valor, desconto) VALUES 
+('Serra elétrica', 2, 'serra.jpg', 'teste', 110, 1, 0, 0, 0, 0, 0, 10, 25, 5),
+('Escada', NULL, 'escada.jpg', 'teste', 0, 1, 0, 1, 0, 0, 1, 4, 15, 0),
+('Furadeira', 2, 'furadeira.jpg', 'teste', 220, 1, 0, 0, 0, 1, 0, 2, 30, 3.5),
+('Serra elétrica', 1, 'serra2.jpg', 'teste', 220, 1, 0, 0, 0, 0, 0, 4, 29.9, 0),
+('Mangueira', NULL, 'mangueira.jpg', 'teste', 0, 0, 1, 1, 0, 0, 0, 15, 10, 0),
+('Cortador de grama', 4, 'cortador.jpg', 'teste', 220, 0, 1, 0, 0, 0, 0, 2, 50, 5),
+('Kit de ferramentas', 2, 'kit.jpg', 'teste', 0, 1, 0, 0, 0, 1, 0, 5, 15, 0),
+('Lavadora de pressão', 3, 'lavadora.jpg', 'teste', 110, 0, 0, 1, 0, 0, 0, 2, 80, 8),
+('Projetor multimídia', NULL, 'projetor.jpg', 'teste', 220, 0, 0, 0, 0, 0, 1, 2, 45, 5),
+('Serra elétrica', 4, 'serra3.jpg', 'teste', 220, 1, 0, 0, 0, 0, 0, 3, 32, 0),
+('Aspirador de pó e água', 2, NULL, 'teste', 220, 0, 0, 1, 0, 0, 0, 1, 30, 4),
+('Enceradeira', NULL, NULL, 'teste', 110, 0, 0, 1, 0, 0, 0, 1, 25, 5);
+
